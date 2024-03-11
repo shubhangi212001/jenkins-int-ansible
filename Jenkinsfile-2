@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'agent1' }
+  agent { label 'agent2' }
   environment {
    ANSIBLE_PRIVATE_KEY=credentials('mariadb-private-key') 
   }
